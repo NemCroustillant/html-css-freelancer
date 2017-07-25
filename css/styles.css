@@ -16,4 +16,55 @@ html {
 
 *, *:before, *:after {
    box-sizing: inherit;
+
+}
+
+header {
+  background-image: url(../images/header.jpg);
+  height:1000px;
+
+}
+
+.freelancer {
+  position:absolute;
+  left:400px;
+  background-color:#f0454c;
+  height:50px;
+  border-radius:10px;
+  text-align:center;
+  color:white;
+  padding:10px;
+  top:20px;
+}
+ h1 {
+  position:relative;
+  top: 250px;
+  left: 200px;
+  font-size: 60px;
+  color:#465065;
+
+ }
+
+ header p {
+   position:relative;
+   top: 220px;
+   left: 200px;
+   color:#465065;
+ }
+
+.readmore {
+  position:absolute;;
+  background-color:#f0454c;
+  border-radius:5px;
+  text-align:center;
+  color:white;
+  padding:10px;
+}
+
+ nav {
+   float:right;
+ }
+
+h2, h3 {
+  color: : #465065;
 }

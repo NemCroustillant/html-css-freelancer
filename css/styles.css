@@ -27,7 +27,7 @@ header {
 
 .freelancer {
   position:absolute;
-  left:400px;
+  left:200px;
   background-color:#f0454c;
   height:50px;
   border-radius:10px;
@@ -59,12 +59,113 @@ header {
   text-align:center;
   color:white;
   padding:10px;
+  top:550px;
 }
 
  nav {
    float:right;
+   color: black;
+   word-spacing: 10px;
+   margin-right: 50px;
+
+
+ }
+nav a{
+  color:#465065;
+}
+
+ nav a:hover {
+   text-decoration: none;
+
  }
 
 h2, h3 {
   color: : #465065;
+}
+
+.section1 {
+  display:flex;
+  /*padding: 150px;*/
+  margin-right:200px;
+  margin-left:200px;
+}
+
+.section1 h2, h3 {
+  color:#465065;
+}
+
+.section1 p {
+  color:#9aa0ab;
+}
+
+.section2 {
+  display:flex;
+  margin-right:200px;
+  margin-left:200px;
+}
+
+.section2 h2, h3 {
+  color:#465065;
+}
+
+.section2 p {
+  color:#9aa0ab;
+}
+
+.section3 {
+  display:flex;
+  /*padding: 150px;*/
+  margin-right:200px;
+  margin-left:90px;
+}
+
+.section3 h2 {
+  color:#465065;
+}
+
+.section3 p {
+  color:#9aa0ab;
+}
+
+.section4 {
+  display:flex;
+  /*padding: 150px;*/
+  margin-right:200px;
+  margin-left:200px;
+  bottom:100px;
+  justify-content: space-around;
+}
+.section4 div{
+  width:200px;
+}
+
+.section4 h3{
+  font-size:30px;
+  position:relative;
+  top:20px;
+}
+
+.section4 p{
+  color:#9aa0ab;
+}
+
+.section3 {
+  position:relative;
+ left:150px;
+}
+
+h4 {
+  color:#f0454c;
+}
+
+a, i{
+  color: #f0454c;
+  text-decoration: none;
+  position:relative;
+}
+
+.section4 a, i{
+  color: #f0454c;
+  text-decoration: none;
+  position:relative;
 }

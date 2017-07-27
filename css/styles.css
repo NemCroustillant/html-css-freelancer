@@ -169,3 +169,8 @@ a, i{
   text-decoration: none;
   position:relative;
 }
+
+h2:before{
+  background-color:red;
+  height:3px;
+}

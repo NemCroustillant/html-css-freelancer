@@ -12,6 +12,7 @@
 
 html {
    box-sizing: border-box;
+   font-family:'Montserrat' 'sans-serif',;
 }
 
 *, *:before, *:after {
@@ -208,5 +209,13 @@ footer{
 }
 
 footer a, i{
-  color:#9aa0ab;
+  color:#f0454c;
+}
+
+.section4 img{
+  border-radius:100px;
+}
+
+.footer p{
+  float:right;
 }
